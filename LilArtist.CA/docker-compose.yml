@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  lilartist.community.pl.webapilinux:
+    image: ${DOCKER_REGISTRY-}lilartistcaplwebapilinux
+    build:
+      context: .
+      dockerfile: LilArtist.CA.PL.WebApiLinux/Dockerfile
+    ports:
+      - "5002:80"
+
+  postgres:
+    container_name: postgres
+    image: postgres:13.3
+    environment:
+      POSTGRES_MULTIPLE_DATABASES: CAApiDB
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"

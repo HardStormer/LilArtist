@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LilArtist.CA.BLL.Interfaces\LilArtist.CA.BLL.Interfaces.csproj" />
+    <ProjectReference Include="..\LilArtist.CA.BLL.Standart\LilArtist.CA.BLL.Standart.csproj" />
+    <ProjectReference Include="..\LilArtist.CA.DAL.Interfaces\LilArtist.CA.DAL.Interfaces.csproj" />
+    <ProjectReference Include="..\LilArtist.CA.DAL.SQL\LilArtist.CA.DAL.SQL.csproj" />
+  </ItemGroup>
+
+</Project>

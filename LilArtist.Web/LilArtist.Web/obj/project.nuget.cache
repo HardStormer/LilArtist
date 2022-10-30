@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "baLQHNRuAwjtzy568MGGo1bmQxNJLZHHhuotTWLVWqgepLtuhNkucY2aJRkECvV1q1ST97GwX23l5XP2oyMx5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\betme\\source\\repos\\LilArtist.Web\\LilArtist.Web\\LilArtist.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\betme\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}
